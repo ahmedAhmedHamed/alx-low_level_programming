@@ -15,5 +15,6 @@ if (x == 112 || x == 101 || x >= 97 + 26)
 continue;
 putchar(x);
 }
+putchar(10);
 return (0);
 }
