@@ -14,6 +14,6 @@ while (x < 103)
 if (x == 58)
 x = 97;
 putchar(x++);
-return (0);
 }
+return (0);
 }
