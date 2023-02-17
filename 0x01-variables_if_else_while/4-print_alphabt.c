@@ -14,6 +14,6 @@ x++;
 if (x == 112||x == 101)
 continue;
 putchar(x);
-return (0);
 }
+return (0);
 }
