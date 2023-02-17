@@ -11,7 +11,8 @@ int i;
 int j;
 for (i = 0; i <= 98; i++)
 {
-for (j = i + 1; j <= 99; j++){
+for (j = i + 1; j <= 99; j++)
+{
 putchar(((i / 10) % 10) + 48);
 putchar((i % 10) + 48);
 putchar(32);
@@ -24,5 +25,5 @@ putchar(32);
 }
 }
 putchar(10);
-return(0);
+return (0);
 }
