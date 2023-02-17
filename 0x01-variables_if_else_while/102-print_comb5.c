@@ -16,11 +16,10 @@ for (i = 0; i < count; i++)
 {
     for (j = 0; j < count; j++)
     {
-        for (k = 0; k < count; k++)
+        for (k = i; k < count; k++)
         {
-            for (p = 0; p < count; p++)
+            for (p = j; p < count; p++)
             {
-                if (i > k || j >= p) continue;
                 printf("%d%d %d%d, ",i,j,k,p);
             }
             
