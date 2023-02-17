@@ -29,4 +29,6 @@ for (i = 0; i < count; i++)
     }
     
 }
+putchar(10);
+return (0);
 }
