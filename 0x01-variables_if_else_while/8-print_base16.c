@@ -15,5 +15,6 @@ if (x == 58)
 x = 97;
 putchar(x++);
 }
+putchar(10);
 return (0);
 }
