@@ -23,6 +23,7 @@ for (p = j+1; p < count; p++)
 {
 putchar(i);
 putchar(j);
+putchar(44);
 putchar(k);
 putchar(p);
 if (i == 57 && j == 56 && k == 57 && p == 57)
