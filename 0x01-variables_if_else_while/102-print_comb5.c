@@ -16,18 +16,15 @@ for (i = 0; i < count; i++)
 {
     for (j = 0; j < count; j++)
     {
-        for (k = i; k < count; k++)
+        for (k = i+1; k < count; k++)
         {
-            for (p = j; p < count; p++)
+            for (p = j+1; p < count; p++)
             {
                 printf("%d%d %d%d, ",i,j,k,p);
-            }
-            
-        }
-        
+            }   
+        }   
     }
-    
 }
 putchar(10);
-return (0);
+return(0);
 }
