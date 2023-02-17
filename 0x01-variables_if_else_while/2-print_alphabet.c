@@ -10,4 +10,5 @@ int main(void)
 int c = 97;
 while (c < 97+26)
 putchar(c++);
+return (0);
 }
