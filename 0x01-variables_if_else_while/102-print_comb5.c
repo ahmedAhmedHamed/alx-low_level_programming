@@ -9,34 +9,18 @@ int main(void)
 {
 int i;
 int j;
-int k;
-int p;
-int count;
-count = 58;
-for (i = 48; i < count; i++)
+for (i = 0; i <= 98; i++)
 {
-for (j = 48; j < count; j++)
-{
-for (k = i; k < count; k++)
-{
-for (p = j; p < count; p++)
-{
-if (!(i == 48 && j == 48))
-{
-i++;
-j++;
-}
-putchar(i);
-putchar(j);
-putchar(44);
-putchar(k);
-putchar(p);
-if (i == 57 && j == 56 && k == 57 && p == 57)
-continue;
+for (j = i + 1; j <= 99; j++){
+putchar(((i / 10) % 10) + 48);
+putchar((i % 10) + 48);
 putchar(32);
+putchar(((j / 10) % 10) + 48);
+putchar((j % 10) + 48);
+if (i == 98 && j == 99)
+break;
 putchar(44);
-}   
-}   
+putchar(32);
 }
 }
 putchar(10);
