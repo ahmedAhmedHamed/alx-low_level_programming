@@ -17,10 +17,15 @@ for (i = 48; i < count; i++)
 {
 for (j = 48; j < count; j++)
 {
-for (k = i+1; k < count; k++)
+for (k = i; k < count; k++)
 {
-for (p = j+1; p < count; p++)
+for (p = j; p < count; p++)
 {
+if (!(i == 48 && j == 48))
+{
+i++;
+j++;
+}
 putchar(i);
 putchar(j);
 putchar(44);
