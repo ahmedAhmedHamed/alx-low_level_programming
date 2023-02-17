@@ -11,10 +11,11 @@ int i;
 int j;
 int k;
 int p;
-int count = 10;
-for (i = 0; i < count; i++)
+int count;
+count = 58;
+for (i = 48; i < count; i++)
 {
-    for (j = 0; j < count; j++)
+    for (j = 48; j < count; j++)
     {
         for (k = i+1; k < count; k++)
         {
