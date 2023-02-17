@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main Hello
+ * main - Hello
  *
  * Return: 0 always
  */
