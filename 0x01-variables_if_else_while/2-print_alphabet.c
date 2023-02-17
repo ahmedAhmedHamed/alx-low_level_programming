@@ -8,7 +8,7 @@
 int main(void)
 {
 int c = 97;
-while (c < 97+26)
+while (c < 97 + 26)
 putchar(c++);
 putchar(10);
 return (0);
