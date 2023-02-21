@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - helo
+ * print_alphabet_x10 - helo
  */
 void print_alphabet_x10(void)
 {
