@@ -23,7 +23,7 @@ if (j == 9)
 continue;
 _putchar(',');
 _putchar(' ');
-if (i * j > 9)
+if (i * j < 9)
 _putchar(' ');
 }
 _putchar('\n');
