@@ -12,4 +12,5 @@ for (i = 0; i < 9; i++)
 for (j = 97; j < 123; j++)
 _putchar((char) j);
 }
+_putchar('\n');
 }
