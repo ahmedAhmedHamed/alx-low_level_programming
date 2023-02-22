@@ -41,7 +41,10 @@ if (x == 0)
 _putchar(i + '0');
 x = 0;
 if (i == 98)
+{
+_putchar('\n');
 continue;
+}
 _putchar(',');
 _putchar(' ');
 }
