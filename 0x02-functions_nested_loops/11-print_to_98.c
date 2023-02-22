@@ -12,37 +12,37 @@ x = 0;
 for (i = n; i <= 98; i++)
 {
 if (i < 0)
-putchar('-');
+_putchar('-');
 if (i < -99 && x == 0)
 {
-putchar((~i + 1) / 10 / 10 + '0');
-putchar((~i + 1) / 10 % 10 + '0');
-putchar((~i + 1) % 10 + '0');
+_putchar((~i + 1) / 10 / 10 + '0');
+_putchar((~i + 1) / 10 % 10 + '0');
+_putchar((~i + 1) % 10 + '0');
 x = 1;
 }
 if (i < -9 && x == 0)
 {
-putchar((~i + 1) / 10 + '0');
-putchar((~i + 1) % 10 + '0');
+_putchar((~i + 1) / 10 + '0');
+_putchar((~i + 1) % 10 + '0');
 x = 1;
 }
 if (i < 0 && x == 0)
 {
-putchar((~i + 1) % 10 + '0');
+_putchar((~i + 1) % 10 + '0');
 x = 1;
 }
 if (i > 9 && x == 0)
 {
-putchar(i / 10 + '0');
-putchar(i % 10 + '0');
+_putchar(i / 10 + '0');
+_putchar(i % 10 + '0');
 x = 1;
 }
 if (x == 0)
-putchar(i + '0');
+_putchar(i + '0');
 x = 0;
 if (i == 98)
 continue;
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
 }
