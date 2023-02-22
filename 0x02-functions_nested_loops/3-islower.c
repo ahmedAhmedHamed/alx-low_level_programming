@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * _islower - hello
  *
@@ -7,5 +5,5 @@
  */
 int _islower(int c)
 {
-return (c < 90);
+return (c >= 97 && c <= 122);
 }
