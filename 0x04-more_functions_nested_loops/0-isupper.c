@@ -6,5 +6,5 @@
  */
 int _isupper(int c)
 {
-return (c < 91);
+return (c < 91 && c > 64);
 }
