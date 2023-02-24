@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * more_number - hlelo
+ * more_numbers - hlelo
  */
 void more_numbers(void)
 {
