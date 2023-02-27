@@ -5,12 +5,12 @@
 void rev_string(char *s)
 {
 char * p;
-p = s;
+int e;
 int k;
+p = s;
 k = 0;
 while (*p++ != '\0')
 k++;
-int e;
 e = k / 2;
 p--;
 while (e != 0)
