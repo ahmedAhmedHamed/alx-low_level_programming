@@ -6,8 +6,9 @@
 void print_rev(char *s)
 {
 int k;
-k = _strlen(s);
-s = s + k - 1;
+while (*s != '\0')
+s++;
+s--;
 while (k--)
 _putchar(*s--);
 _putchar('\n');
