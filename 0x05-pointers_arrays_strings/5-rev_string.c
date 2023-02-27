@@ -4,7 +4,6 @@
  */
 void rev_string(char *s)
 {
-char* s = "hello";
 char * p;
 p = s;
 int k;
