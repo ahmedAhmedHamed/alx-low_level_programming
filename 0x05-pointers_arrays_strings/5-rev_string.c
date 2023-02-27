@@ -4,23 +4,22 @@
  */
 void rev_string(char *s)
 {
-char * p;
-int e;
 int k;
-p = s;
+int e;
+int l;
+l = 0;
 k = 0;
-while (*p++ != '\0')
+while (s[k] != '\0')
 k++;
+k--;
 e = k / 2;
-p--;
-while (e != 0)
+while (k > e)
 {
 char temp;
-temp = *s;
-*s = *p;
-*p = temp;
-p--;
-s++;
-e--;
+temp = s[k];
+s[k] = s[l];
+s[l] = temp;
+l++;
+k--;
 }
 }
