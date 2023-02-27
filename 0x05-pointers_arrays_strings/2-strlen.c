@@ -1,5 +1,5 @@
 /**
- * _strlen(char *s) - helo
+ * _strlen - helo
  * @s: number
  * Return: number
  */
