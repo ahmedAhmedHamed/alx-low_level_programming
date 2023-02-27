@@ -10,5 +10,5 @@ k = _strlen(s);
 s = s + k - 1;
 while (k--)
 _putchar(*s--);
-_putchar('\n')
+_putchar('\n');
 }
