@@ -13,7 +13,7 @@ int j;
 for (i = 0; dest[i] != '\0'; i++)
 ;
 j = 0;
-while (j < n)
+while (j < n && src[j] != '\0')
 {
 dest[i + j] = src[j];
 j++;
