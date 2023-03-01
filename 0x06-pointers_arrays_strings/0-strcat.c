@@ -31,4 +31,5 @@ newp[k + o] = src[o];
 o++;
 }
 newp[k + o] = '\0';
+return (newp);
 }
