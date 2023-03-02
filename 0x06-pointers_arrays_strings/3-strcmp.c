@@ -34,11 +34,7 @@ while (*s2 != '\0')
 c2++;
 n2 += *s2++;
 }
-if (c1 > c2)
-return (1);
-else if (c1 < c2)
-return (-1);
-else if (n1 > n2)
+if (n1 > n2)
 return (1);
 else if (n2 > n1)
 return (-1);
