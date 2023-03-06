@@ -13,5 +13,5 @@ while (n--)
 {
 s[k++] = b;
 }
-return s;
+return (s);
 }
