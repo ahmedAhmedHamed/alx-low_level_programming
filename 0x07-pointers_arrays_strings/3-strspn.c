@@ -5,7 +5,7 @@
  * @str: s
  * Return: bool
  */
-int inStr(char c, char* str)
+int inStr(char c, char *str)
 {
 while (*str != '\0')
 {
