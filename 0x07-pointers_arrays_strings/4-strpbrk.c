@@ -21,7 +21,7 @@ return (0);
  * _strpbrk - hello
  * @s: s
  * @accept: accept
- * @Return: s
+ * Return: s
  */
 char *_strpbrk(char *s, char *accept)
 {
