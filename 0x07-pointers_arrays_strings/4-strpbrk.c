@@ -18,21 +18,17 @@ return (0);
 }
 
 /**
- * _strspn - stringspan
+ * _strpbrk - hello
  * @s: s
- * @accept: s
- * Return: length
+ * @accept: accept
+ * @Return: s
  */
-unsigned int _strspn(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-int counter = 0;
-while (*s != '\0')
-{
-if (inStr(*s, accept))
-counter++;
-else
-break;
-s++;
-}
-return (counter);
+    while (*s != '\0')
+    {
+        if (inStr(*s, accept))
+            return (s);
+    }
+    return ('\0');
 }
