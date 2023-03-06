@@ -1,10 +1,14 @@
 #include "main.h"
-/*
+
+/**
  * _strchr - helo
- * @s: char*
- * @c: s
- * Return: char* or null
+ *
+ * @s: char array
+ * @c: char
+ *
+ * Return: char pointer
  */
+
 char *_strchr(char *s, char c)
 {
 int a = 0;
