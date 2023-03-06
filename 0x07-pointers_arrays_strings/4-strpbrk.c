@@ -6,7 +6,7 @@
  * @str: s
  * Return: bool
  */
-bool inStr(char c, char *str)
+int inStr(char c, char *str)
 {
 while (*str != '\0')
 {
@@ -25,7 +25,6 @@ return (0);
  */
 unsigned int _strspn(char *s, char *accept)
 {
-int k = 0;
 int counter = 0;
 while (*s != '\0')
 {
