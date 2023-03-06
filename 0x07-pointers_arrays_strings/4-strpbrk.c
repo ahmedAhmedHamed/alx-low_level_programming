@@ -6,15 +6,15 @@
  * @str: s
  * Return: bool
  */
-bool inStr(char c, char* str)
+bool inStr(char c, char *str)
 {
 while (*str != '\0')
 {
 if (*str == c)
-return true;
+return (1);
 str++;
 }
-return false;
+return (0);
 }
 
 /**
