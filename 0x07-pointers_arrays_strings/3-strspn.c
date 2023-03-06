@@ -5,15 +5,15 @@
  * @str: s
  * Return: bool
  */
-bool inStr(char c, char* str)
+int inStr(char c, char* str)
 {
 while (*str != '\0')
 {
 if (*str == c)
-return (true);
+return (1);
 str++;
 }
-return (false);
+return (0);
 }
 
 /**
@@ -24,7 +24,6 @@ return (false);
  */
 unsigned int _strspn(char *s, char *accept)
 {
-int k = 0;
 int counter = 0;
 while (*s != '\0')
 {
