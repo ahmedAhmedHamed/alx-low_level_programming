@@ -29,6 +29,7 @@ while (*s != '\0')
 {
 if (inStr(*s, accept))
 return (s);
+s++;
 }
 return ('\0');
 }
