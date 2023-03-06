@@ -25,10 +25,10 @@ return (0);
  */
 char *_strpbrk(char *s, char *accept)
 {
-    while (*s != '\0')
-    {
-        if (inStr(*s, accept))
-            return (s);
-    }
-    return ('\0');
+while (*s != '\0')
+{
+if (inStr(*s, accept))
+return (s);
+}
+return ('\0');
 }
