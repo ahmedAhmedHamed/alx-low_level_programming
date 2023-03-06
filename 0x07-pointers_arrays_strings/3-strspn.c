@@ -10,10 +10,10 @@ bool inStr(char c, char* str)
 while (*str != '\0')
 {
 if (*str == c)
-return true;
+return (true);
 str++;
 }
-return false;
+return (false);
 }
 
 /**
