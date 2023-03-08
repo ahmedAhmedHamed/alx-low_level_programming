@@ -26,5 +26,5 @@ return (myIsPrime(x, y + 1));
  */
 int is_prime_number(int n)
 {
-    return (myIsPrime(n, 2));
+return (myIsPrime(n, 2));
 }
