@@ -3,6 +3,7 @@
 /**
  * myIsPalindrome - hello
  * @s: s
+ * @x: s
  * @len: s
  * Return: s
  */
