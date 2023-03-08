@@ -7,3 +7,5 @@ int mySqrt(int x, int y);
 int _sqrt_recursion(int n);
 int myIsPrime(int x, int y);
 int is_prime_number(int n);
+int myIsPalindrome(char *s, int x, int len);
+int is_palindrome(char *s);
