@@ -3,7 +3,6 @@
 /**
  * myIsPalindrome - hello
  * @s: s
- * @x: s
  * @len: s
  * Return: s
  */
@@ -18,7 +17,7 @@ return (myIsPalindrome(s, x + 1, len));
 /**
  * stringLength - hello
  * @s: s
- * @n: s
+ * @len: s
  * Return: s
  */
 int stringLength(char *s, int len)
