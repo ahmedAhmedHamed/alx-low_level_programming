@@ -8,13 +8,13 @@
  */
 int mySqrt(int x, int y)
 {
-    if (x == 1)
-        return (1);
-    if (y >= x / 2)
-        return (-1);
-    if (y * y == x)
-        return (y);
-    return (mySqrt(x, y+1));
+if (x == 1)
+return (1);
+if (y >= x / 2)
+return (-1);
+if (y * y == x)
+return (y);
+return (mySqrt(x, y+1));
 }
 
 /**
