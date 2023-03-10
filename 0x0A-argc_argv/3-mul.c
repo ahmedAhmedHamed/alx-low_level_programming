@@ -22,6 +22,6 @@ if (argv[2][1] != '\0')
 num2 = (argv[2][1] - '0') * -1;
 else
 num2 = *argv[2] - '0';
-printf("%d\n", num1 * num2);
+printf("%d\n", num1 *num2);
 return (0);
 }
