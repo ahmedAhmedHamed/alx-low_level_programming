@@ -26,9 +26,10 @@ i--;
 j--;
 while (i >= 0)
 {
-if (argv[2][i] == '-')
+if (argv[1][i] == '-')
 {
 num1 *= -1;
+i--;
 break;
 }
 num1 += (argv[1][i--] - '0') * mult1;
@@ -39,6 +40,7 @@ while (j >= 0)
 if (argv[2][j] == '-')
 {
 num2 *= -1;
+j--;
 break;
 }
 num2 += (argv[2][j--] - '0') * mult2;
