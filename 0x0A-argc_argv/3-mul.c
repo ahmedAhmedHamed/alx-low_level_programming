@@ -18,8 +18,10 @@ if (argc < 3)
 printf("Error\n");
 return (1);
 }
-for (i = 0; argv[1][i] != '\0'; i++);
-for (j = 0; argv[1][j] != '\0'; j++);
+for (i = 0; argv[1][i] != '\0'; i++)
+;
+for (j = 0; argv[1][j] != '\0'; j++)
+;
 i--;
 j--;
 while (i >= 0)
