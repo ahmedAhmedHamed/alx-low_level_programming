@@ -50,12 +50,12 @@ int main(int argc, char *argv[])
 {
 int num1;
 int finNum = 0;
-num1 = atoi(argv[1]);
 if (argc != 2)
 {
 printf("Error\n");
 return (1);
 }
+num1 = atoi(argv[1]);
 if (num1 < 0)
 {
 printf("0\n");
