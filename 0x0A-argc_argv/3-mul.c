@@ -11,6 +11,9 @@ int _atoi(char *s)
 int i = 0;
 int num1 = 0;
 int mult1 = 1;
+for (i = 0; s[i] != '\0'; i++)
+;
+i--;
 while (i >= 0)
 {
 if (s[i] == '-')
