@@ -13,8 +13,6 @@ int mult1 = 1;
 int mult2 = 1;
 int i;
 int j;
-int flag1 = 0;
-int flag2 = 0;
 if (argc < 3)
 {
 printf("Error\n");
