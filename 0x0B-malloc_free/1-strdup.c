@@ -18,7 +18,7 @@ k++;
 
 myStr = malloc(sizeof(char) *k);
 
-if (myStr = 0)
+if (myStr == 0)
 return (0);
 
 while (k--)
