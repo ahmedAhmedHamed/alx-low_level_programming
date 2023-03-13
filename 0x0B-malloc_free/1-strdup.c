@@ -16,7 +16,7 @@ while (str[k] != '\0')
 k++;
 k++;
 
-myStr = malloc(sizeof(char) *k);
+myStr = malloc(sizeof(char) * k);
 
 if (myStr == 0)
 return (0);
