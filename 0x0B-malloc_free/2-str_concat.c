@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * str_concat - hello
  * @s1: s
@@ -25,16 +26,10 @@ char *str_concat(char *s1, char *s2)
         j++;
     }
 
-    if (i && !j)
-    i++;
+    str = malloc(i + j + 1);
 
-    if (j && !i)
-    j++;
-
-    if (i && j)
-    j++;
-
-    str = malloc(i + j);
+    if (str == 0)
+        return (0);
 
     while(k <= i)
     {
@@ -46,5 +41,8 @@ char *str_concat(char *s1, char *s2)
         str[k + i] = s2[k];
         k++;
     }
+
+    str[k] = '\0';
+
     return (str);
 }
