@@ -13,6 +13,8 @@ char *str;
 if (size == 0)
 return (0);
 str = malloc(sizeof(char) * size);
+if (str == 0)
+return (0);
 while (size--)
 str[size] = c;
 str[0] = c;
