@@ -31,7 +31,7 @@ str = malloc(i + j + 1);
 if (str == 0)
 return (0);
 
-while(k < i)
+while (s1 != 0 && k < i)
 {
 str[k] = s1[k];
 k++;
@@ -39,7 +39,7 @@ k++;
 
 k = 0;
 
-while (k <= i + j)
+while (s2 != 0 && k <= i + j)
 {
 str[k + i] = s2[k];
 k++;
