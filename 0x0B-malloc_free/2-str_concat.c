@@ -45,7 +45,7 @@ str[k + i] = s2[k];
 k++;
 }
 
-str[k] = '\0';
+str[k + i + j] = '\0';
 
 return (str);
 }
