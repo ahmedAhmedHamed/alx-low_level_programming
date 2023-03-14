@@ -13,7 +13,6 @@ while (height--)
 {
 free(grid[height]);
 }
-free(grid[height]);
 free(grid);
 }
 }
