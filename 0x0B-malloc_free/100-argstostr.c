@@ -45,6 +45,5 @@ k++;
 j = 0;
 }
 str[k] = '\0';
-printf("%s\n", str);
 return (str);
 }
