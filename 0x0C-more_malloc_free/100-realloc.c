@@ -25,7 +25,6 @@ int getMin(int one, int two)
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 int i;
-int min;
 char *s;
 char *s1;
 if (old_size == new_size)
