@@ -48,6 +48,7 @@ if (s == 0)
 {
     return (s);
 }
+s1 = ptr;
 for (i = 0; i < getMin(old_size, new_size); i++)
 s[i] = s1[i];
 return (s);
