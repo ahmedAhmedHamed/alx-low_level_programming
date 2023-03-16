@@ -31,6 +31,13 @@ counter++;
 return (counter);
 }
 
+/**
+ * allocateMemory - hello
+ * @str: s
+ * @myStr: s
+ * @counter: s
+ * Return: bool
+ */
 int allocateMemory(char *str, char **myStr, int counter)
 {
 int i;
@@ -120,7 +127,6 @@ myStr[i][k] = '\0';
 k = 0;
 }
 
-myStr[i] = malloc(sizeof(char) * 2);
 myStr[i] = 0;
 
 return (myStr);
