@@ -32,7 +32,6 @@ char **strtow(char *str)
     myStr = malloc(sizeof(char *) * counter);
     if (myStr == 0)
     {
-        printf("zero\n");
         return (0);
     }
     j = 0;
@@ -48,7 +47,6 @@ char **strtow(char *str)
         myStr[i] = malloc(counterTwo);
         if (myStr[i] == 0)
         {
-            printf("a7aa\n");
             return (0);
         }
     }
