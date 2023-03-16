@@ -1,6 +1,23 @@
 #include "main.h"
 
 /**
+  * _strlen - strlen
+  * @s: String to count
+  * Return: String length
+  */
+int _strlen(char *s)
+{
+    int c = 0;
+
+    for (c = 0; *s != '\0'; s++)
+    {
+        c++;
+    }
+
+    return (c);
+}
+
+/**
  * string_nconcat - hello
  * @s1: s
  * @s2: s
@@ -9,8 +26,8 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-    int i = 0;
-    int j = 0;
+    unsigned int i = 0;
+    unsigned int j = 0;
     char *myStr;
     if (s1 == 0 && s2 == 0)
         return ("");
