@@ -5,7 +5,7 @@
   * @s: String to count
   * Return: String length
   */
-int _strlen(char *s)
+unsigned int _strlen(char *s)
 {
     int c = 0;
 
@@ -30,7 +30,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
     unsigned int j = 0;
     char *myStr;
     if (s1 == 0 && s2 == 0)
-        return ("");
+        return (0);
     /*allocating memory*/
     if (n < _strlen(s2))
         myStr = malloc((_strlen(s1) + n + 1) * sizeof(char));
@@ -39,16 +39,20 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
     if (myStr == 0)
         return (0);
     /*copying s1 into new string*/
+
     while (s1[i] != '\0')
     {
         myStr[i] = s1[i];
         i++;
     }
+
     for (j = 0; j < n && j < _strlen(s2) && s2[j] != '\0'; j++)
     {
         myStr[i] = s2[j];
         i++;
     }
+
     myStr[i] = '\0';
+
     return (myStr);
 }
