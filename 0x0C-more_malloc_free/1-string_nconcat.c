@@ -29,8 +29,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
     unsigned int i = 0;
     unsigned int j = 0;
     char *myStr;
-    if (s1 == 0 && s2 == 0)
-        return (0);
+    if (s1 == 0)
+        s1 = "";
+    if (s2 == 0)
+        s2 = "";
     /*allocating memory*/
     if (n < _strlen(s2))
         myStr = malloc((_strlen(s1) + n + 1) * sizeof(char));
