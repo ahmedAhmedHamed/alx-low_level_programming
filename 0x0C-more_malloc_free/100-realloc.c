@@ -8,11 +8,11 @@
  */
 int getMin(int one, int two)
 {
-    if (one > two)
-        return (two);
-    if (two > one)
-        return (one);
-    return (one);
+if (one > two)
+return (two);
+if (two > one)
+return (one);
+return (one);
 }
 
 /**
@@ -34,7 +34,7 @@ if (ptr == 0)
 {
 s = malloc(new_size);
 if (s == 0)
-return (0);
+    return (0);
 return (s);
 }
 else if(new_size == 0)
@@ -44,13 +44,11 @@ return (0);
 }
 else
 s = malloc(new_size);
-
-s1 = ptr;
-
-for (i = 0; i < getMin(old_size, new_size); i++)
+if (s == 0)
 {
-s[i] = s1[i];
+    return (s);
 }
-
+for (i = 0; i < getMin(old_size, new_size); i++)
+s[i] = s1[i];
 return (s);
 }
