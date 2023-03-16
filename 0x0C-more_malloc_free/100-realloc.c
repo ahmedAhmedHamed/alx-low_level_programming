@@ -46,7 +46,7 @@ else
 s = malloc(new_size);
 if (s == 0)
 {
-    return (s);
+    return (0);
 }
 s1 = ptr;
 for (i = 0; i < getMin(old_size, new_size); i++)
