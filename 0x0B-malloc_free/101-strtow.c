@@ -74,7 +74,6 @@ int j = 0;
 int k = 0;
 int flag = 0;
 int counter = 0;
-int counterTwo = 0;
 char **myStr;
 if (str == 0 || str[0] == '\0')
 return (0);
@@ -91,7 +90,6 @@ myStr = malloc(sizeof(char *) * (counter + 1));
 
 if (myStr == 0)
 {
-printf("zero\n");
 return (0);
 }
 
