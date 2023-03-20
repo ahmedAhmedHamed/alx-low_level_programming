@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdio.h>
 /**
  * print_dog - hello
  * @d: s
@@ -16,7 +17,7 @@ printf("Age: ");
 if (d->age == 0)
 printf("nil\n");
 else
-printf("%d\n", d->age);
+printf("%f\n", d->age);
 printf("Owner: ");
 if (d->owner == 0)
 printf("nil");
