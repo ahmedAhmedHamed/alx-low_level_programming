@@ -13,11 +13,12 @@ if (d->name != 0)
 printf("%s\n", d->name);
 else
 printf("nil\n");
+
 printf("Age: ");
 printf("%f\n", d->age);
 printf("Owner: ");
 if (d->owner == 0)
-printf("nil");
+printf("nil\n");
 else
 printf("%s\n", d->owner);
 }
