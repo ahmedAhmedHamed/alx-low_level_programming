@@ -17,7 +17,13 @@ char *strowner = malloc(strlen(owner));
 strowner = malloc(strlen(owner));
 strname = malloc(strlen(name));
 myDog = malloc(sizeof(dog_t));
-
+if (strowner == 0 || strname == 0 || myDog == 0)
+{
+free(strowner);
+free(strname);
+free(myDog);
+return (0);
+}
 strcpy(strname, name);
 strcpy(strowner, owner);
 myDog->name = strname;
