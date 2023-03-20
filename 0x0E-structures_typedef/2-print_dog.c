@@ -16,7 +16,7 @@ else
 printf("nil\n");
 
 printf("Age: ");
-if (&d->age == 0)
+if (d->age < 0)
 printf("nil\n");
 else
 printf("%f\n", d->age);
