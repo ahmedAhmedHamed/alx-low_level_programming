@@ -8,13 +8,13 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-char *strname;
-char *strowner;
-dog_t myDog;
+char *strname = malloc(strlen(name));
+char *strowner = malloc(strlen(owner));
+dog_t *myDog = malloc(sizeof(dog_t));
 strcpy(strname, name);
 strcpy(strowner, owner);
-myDog.name = strname;
-myDog.age = age;
-myDog.owner = strowner;
-return (&myDog);
+myDog->name = strname;
+myDog->age = age;
+myDog->owner = strowner;
+return (myDog);
 }
