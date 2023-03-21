@@ -12,7 +12,7 @@ if (d == 0)
 free(d);
 return;
 }
-free (d->name);
-free (d->owner);
+free(d->name);
+free(d->owner);
 free(d);
 }
