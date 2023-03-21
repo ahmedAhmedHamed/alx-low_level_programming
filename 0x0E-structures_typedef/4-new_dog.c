@@ -18,8 +18,8 @@ if (myDog == 0)
 free(myDog);
 return (0);
 }
-myDog->name = malloc(sizeof(char) * strlen(name));
-myDog->owner = malloc(sizeof(char) * strlen(owner));
+myDog->name = malloc(sizeof(char) * (strlen(name) + 1));
+myDog->owner = malloc(sizeof(char) * (strlen(owner) + 1));
 
 if (myDog->owner == 0 || myDog->name == 0 || myDog == 0)
 {
