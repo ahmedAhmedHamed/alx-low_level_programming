@@ -12,7 +12,7 @@ if (action == 0)
 return;
 while (i < size)
 {
-action(array[size]);
+action(array[i]);
 i++;
 }
 }
