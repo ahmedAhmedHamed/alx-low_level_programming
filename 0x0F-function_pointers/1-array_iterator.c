@@ -1,4 +1,7 @@
 #include "function_pointers.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 /**
  * array_iterator - hello
  * @array: s
