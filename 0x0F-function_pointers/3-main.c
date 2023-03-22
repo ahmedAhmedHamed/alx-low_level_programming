@@ -16,7 +16,7 @@ if (argc != 4)
 printf("Error\n");
 return (98);
 }
-if (argv[2][0] != '+' && argv[2][0] != '/' && argv[2][0] != '%' && argv[2][0] != '*' && argv[2][0] != '-' || strlen(argv[2]) != 1)
+if ((argv[2][0] != '+' && argv[2][0] != '/' && argv[2][0] != '%' && argv[2][0] != '*' && argv[2][0] != '-') || (strlen(argv[2]) != 1))
 {
 printf("Error\n");
 return (99);

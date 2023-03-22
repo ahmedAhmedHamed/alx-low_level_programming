@@ -1,5 +1,9 @@
 #ifndef hello
 #define hello
+#include <stddef.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 /**
  * struct op - Struct op
  * @op: The operator
