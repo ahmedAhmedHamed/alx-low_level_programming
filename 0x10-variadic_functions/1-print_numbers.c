@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 /**
  * print_numbers - hello
- * @separator s
+ * @separator: s
  * @n: s
  * @...: s
  */
@@ -14,7 +14,7 @@ for (i = 0; i < n; i++)
 {
 int x = va_arg(args, int);
 printf("%d", x);
-if (separator != 0 && i != n-1)
+if (separator != 0 && i != n - 1)
 printf("%s", separator);
 }
 va_end(args);
