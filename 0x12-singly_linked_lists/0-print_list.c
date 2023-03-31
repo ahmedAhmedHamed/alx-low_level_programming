@@ -27,6 +27,6 @@ return (0);
 if (h->str == 0)
 printf("[0] (nil)\n");
 else
-printf("[%d] %s\n", _strlen(h->str) - 1, h->str);
+printf("[%d] %s\n", _strlen(h->str), h->str);
 return (1 + print_list(h->next));
 }
