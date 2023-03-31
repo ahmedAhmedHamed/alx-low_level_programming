@@ -17,8 +17,8 @@ return (len);
 
 /**
  * print_list - hello
- * @param h
- * @return
+ * @h: s
+ * Return: s
  */
 size_t print_list(const list_t *h)
 {
