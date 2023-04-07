@@ -10,6 +10,6 @@ int get_bit(unsigned long int n, unsigned int index)
 int sol;
 if (index > 32)
 return (-1);
-sol = sol | ((n >> index) & 1);
+sol = n | ((n >> index) & 1);
 return (sol);
 }
