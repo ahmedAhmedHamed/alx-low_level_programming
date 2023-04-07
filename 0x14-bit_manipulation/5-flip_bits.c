@@ -16,5 +16,5 @@ counter++;
 n >>= 1;
 m >>= 1;
 }
-return (32 - counter);
+return (33 - counter);
 }
