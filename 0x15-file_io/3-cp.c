@@ -1,4 +1,6 @@
+#include <unistd.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <fcntl.h>
 
 /**
@@ -32,11 +34,11 @@ write (2, two, _strlen(two));
 write(2, "\n", 1);
 }
 
+
 int main(int argc, char *argv[])
 {
 
 char str[1024];
-int check;
 int file_to;
 int file_from;
 int close1;
@@ -69,16 +71,20 @@ close1 = close(file_from);
 close2 = close(file_to);
 if (close1 == -1)
 {
-char *print = '0' + close1;
-printSentenceToError("Can't close fd ", print);
+char s = close1 + '0';
+write(2, "Can't close fd ", _strlen("Can't close fd "));
+write (2, &s, 1);
+write(2, "\n", 1);
 return (100);
 }
 
 if (close2 == -1)
 {
-char *print = '0' + close2;
-printSentenceToError("Can't close fd ", print);
+char s = close2 + '0';
+write(2, "Can't close fd ", _strlen("Can't close fd "));
+write (2, &s, 1);
+write(2, "\n", 1);
 return (100);
 }
-
+return (0);
 }
