@@ -27,8 +27,8 @@ return (0);
 }
 fclose(filePtr);
 count = write(1, str, letters);
+free(str);
 if (count != letters)
 return (0);
-free(str);
 return (count);
 }
