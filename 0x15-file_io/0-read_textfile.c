@@ -8,7 +8,7 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-int count = 0;
+unsigned int count = 0;
 FILE *filePtr;
 char *str = 0;
 if (filename == 0)
@@ -16,7 +16,7 @@ return (0);
 filePtr = fopen(filename, "r");
 if (filePtr == 0)
 return (0);
-str = malloc(letters);
+str = malloc(letters * sizeof(char));
 if (str == 0)
 return (0);
 if (fgets(str, letters, filePtr) == 0)
