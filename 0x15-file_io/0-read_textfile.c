@@ -38,12 +38,13 @@ return (two);
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-if (filename == 0)
-return (0);
-int fd = open(filename, O_RDONLY);
 char str[1000];
 int check;
 int printed;
+int fd;
+if (filename == 0)
+return (0);
+fd = open(filename, O_RDONLY);
 if (fd == -1)
 return (0);
 check = read(fd, str, letters);
