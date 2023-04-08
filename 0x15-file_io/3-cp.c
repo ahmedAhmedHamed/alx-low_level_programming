@@ -37,9 +37,10 @@ write(2, "\n", 1);
 
 int main()
 {
+int readed;
 int argc = 3;
-char *argv[3] = {"11", "from", "to"};
-char str[1025];
+char *argv[3] = {"11", "helo", "to"};
+char str[3];
 int file_to;
 int file_from;
 int close1;
@@ -63,10 +64,8 @@ printSentenceToError("Error: Can't write to ", argv[2]);
 return (99);
 }
 
-while (read(file_from, str, 1024) > 0)
-{
-write(file_to, str, _strlen(str));
-}
+while ((readed = read(file_from, str, 3)) > 0)
+write(file_to, str, readed);
 
 close1 = close(file_from);
 close2 = close(file_to);
