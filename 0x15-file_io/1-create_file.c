@@ -30,7 +30,7 @@ int fd;
 int check;
 if (filename == 0)
 return (-1);
-fd = open(filename, O_RDWR | O_CREAT | O_APPEND | 0600);
+fd = open(filename, O_RDWR | O_CREAT | O_APPEND, 0600);
 if (text_content == 0)
 return (1);
 check = write (fd, text_content, _strlen(text_content));
