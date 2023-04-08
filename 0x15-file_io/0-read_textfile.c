@@ -23,7 +23,7 @@ return (len);
  * @two: s
  * Return: s
  */
-int getMin(int one, int two)
+size_t getMin(int one, int two)
 {
 if (one < two)
 return (one);
