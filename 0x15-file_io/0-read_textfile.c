@@ -38,26 +38,16 @@ return (two);
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-size_t count = 0;
-size_t check = 0;
-size_t letterscopy = letters;
-FILE *filePtr;
+int fd = open(filename, O_RDONLY);
 char str[1000];
-if (filename == 0)
+int check;
+if (fd == -1)
 return (0);
-filePtr = fopen(filename, "r");
-if (filePtr == 0)
-return (0);
-while (fgets(str, letterscopy, filePtr) != 0 && (letters - count) > 0)
+check = read(fd, str, letters);
+if (check == -1)
 {
-check = write(1, str, getMin(_strlen(str), letters - count));
-if (check != getMin(_strlen(str), letters - count))
-{
-fclose(filePtr);
+close(fd);
 return (0);
 }
-count += check;
-}
-fclose(filePtr);
-return (count);
+close(fd);
 }
