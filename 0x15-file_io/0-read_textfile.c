@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * read_textfile -
+ * read_textfile - helo
  * @param filename namestring
  * @param letters letters to be copied
  * Return: number of letters copied
