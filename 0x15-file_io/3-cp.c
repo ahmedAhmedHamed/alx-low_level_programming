@@ -35,10 +35,11 @@ write(2, "\n", 1);
 }
 
 
-int main(int argc, char *argv[])
+int main()
 {
-
-char str[1024];
+int argc = 3;
+char *argv[3] = {"11", "from", "to"};
+char str[1025];
 int file_to;
 int file_from;
 int close1;
@@ -69,6 +70,7 @@ write(file_to, str, _strlen(str));
 
 close1 = close(file_from);
 close2 = close(file_to);
+
 if (close1 == -1)
 {
 char s = close1 + '0';
@@ -86,5 +88,6 @@ write (2, &s, 1);
 write(2, "\n", 1);
 return (100);
 }
+
 return (0);
 }
