@@ -5,9 +5,9 @@
  * @s: number
  * Return: number
  */
-size_t _strlen(char *s)
+ssize_t _strlen(char *s)
 {
-size_t len;
+int len;
 len = 0;
 while (*s != '\0')
 {
@@ -23,7 +23,7 @@ return (len);
  * @two: s
  * Return: s
  */
-size_t getMin(int one, int two)
+int getMin(int one, int two)
 {
 if (one < two)
 return (one);
@@ -41,13 +41,17 @@ ssize_t read_textfile(const char *filename, size_t letters)
 int fd = open(filename, O_RDONLY);
 char str[1000];
 int check;
+int printed;
 if (fd == -1)
 return (0);
 check = read(fd, str, letters);
+close(fd);
 if (check == -1)
 {
-close(fd);
 return (0);
 }
-close(fd);
+printed = write(1, str, check);
+if (printed != check)
+return (0);
+return (printed);
 }
