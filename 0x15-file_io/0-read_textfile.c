@@ -52,7 +52,7 @@ if (check == -1)
 {
 return (0);
 }
-printed = write(1, str, _strlen(str));
+printed = write(STDOUT_FILENO, str, _strlen(str));
 if (printed != _strlen(str))
 return (0);
 return (printed);
