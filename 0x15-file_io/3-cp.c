@@ -63,7 +63,7 @@ return (99);
 }
 
 while ((readed = read(file_from, str, 1024)) > 0)
-write(file_to, str, readed);
+dprintf(file_to, "%s", str);
 
 close1 = close(file_from);
 close2 = close(file_to);
