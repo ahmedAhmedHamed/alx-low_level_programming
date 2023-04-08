@@ -38,6 +38,8 @@ return (two);
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
+if (filename == 0)
+return (0);
 int fd = open(filename, O_RDONLY);
 char str[1000];
 int check;
@@ -50,8 +52,8 @@ if (check == -1)
 {
 return (0);
 }
-printed = write(1, str, check);
-if (printed != check)
+printed = write(1, str, _strlen(str));
+if (printed != _strlen(str))
 return (0);
 return (printed);
 }
