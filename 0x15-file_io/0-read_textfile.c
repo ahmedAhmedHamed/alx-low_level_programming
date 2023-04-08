@@ -25,8 +25,10 @@ free(str);
 fclose(filePtr);
 return (0);
 }
-write(1, str, letters);
-free(str);
 fclose(filePtr);
+count = write(1, str, letters);
+if (count != letters)
+return (0);
+free(str);
 return (count);
 }
