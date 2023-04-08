@@ -52,7 +52,10 @@ while (fgets(str, letterscopy, filePtr) != 0 && (letters - count) > 0)
 {
 check = write(1, str, getMin(_strlen(str), letters - count));
 if (check != getMin(_strlen(str), letters - count))
+{
+fclose(filePtr);
 return (0);
+}
 count += check;
 }
 fclose(filePtr);
