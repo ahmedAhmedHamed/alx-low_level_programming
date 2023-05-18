@@ -97,6 +97,12 @@ build CMakeFiles/0x17_doubly_linked_lists.dir/6-sum_dlistint.c.o: C_COMPILER__0x
   OBJECT_DIR = CMakeFiles/0x17_doubly_linked_lists.dir
   OBJECT_FILE_DIR = CMakeFiles/0x17_doubly_linked_lists.dir
 
+build CMakeFiles/0x17_doubly_linked_lists.dir/7-insert_dnodeint.c.o: C_COMPILER__0x17_doubly_linked_lists_Debug /home/vboxuser/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c || cmake_object_order_depends_target_0x17_doubly_linked_lists
+  DEP_FILE = CMakeFiles/0x17_doubly_linked_lists.dir/7-insert_dnodeint.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu90
+  OBJECT_DIR = CMakeFiles/0x17_doubly_linked_lists.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x17_doubly_linked_lists.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 0x17_doubly_linked_lists
@@ -105,7 +111,7 @@ build CMakeFiles/0x17_doubly_linked_lists.dir/6-sum_dlistint.c.o: C_COMPILER__0x
 #############################################
 # Link the executable 0x17_doubly_linked_lists
 
-build 0x17_doubly_linked_lists: C_EXECUTABLE_LINKER__0x17_doubly_linked_lists_Debug CMakeFiles/0x17_doubly_linked_lists.dir/main.c.o CMakeFiles/0x17_doubly_linked_lists.dir/0-print_dlistint.c.o CMakeFiles/0x17_doubly_linked_lists.dir/1-dlistint_len.c.o CMakeFiles/0x17_doubly_linked_lists.dir/2-add_dnodeint.c.o CMakeFiles/0x17_doubly_linked_lists.dir/3-add_dnodeint_end.c.o CMakeFiles/0x17_doubly_linked_lists.dir/4-free_dlistint.c.o CMakeFiles/0x17_doubly_linked_lists.dir/5-get_dnodeint.c.o CMakeFiles/0x17_doubly_linked_lists.dir/6-sum_dlistint.c.o
+build 0x17_doubly_linked_lists: C_EXECUTABLE_LINKER__0x17_doubly_linked_lists_Debug CMakeFiles/0x17_doubly_linked_lists.dir/main.c.o CMakeFiles/0x17_doubly_linked_lists.dir/0-print_dlistint.c.o CMakeFiles/0x17_doubly_linked_lists.dir/1-dlistint_len.c.o CMakeFiles/0x17_doubly_linked_lists.dir/2-add_dnodeint.c.o CMakeFiles/0x17_doubly_linked_lists.dir/3-add_dnodeint_end.c.o CMakeFiles/0x17_doubly_linked_lists.dir/4-free_dlistint.c.o CMakeFiles/0x17_doubly_linked_lists.dir/5-get_dnodeint.c.o CMakeFiles/0x17_doubly_linked_lists.dir/6-sum_dlistint.c.o CMakeFiles/0x17_doubly_linked_lists.dir/7-insert_dnodeint.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/0x17_doubly_linked_lists.dir
   POST_BUILD = :
