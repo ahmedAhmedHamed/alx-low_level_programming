@@ -1,18 +1,10 @@
 # ninja log v5
-0	18	1684443137308660752	CMakeFiles/0x17_doubly_linked_lists.dir/main.c.o	1f81b31cc643fc57
-0	14	1684443479354871587	CMakeFiles/0x17_doubly_linked_lists.dir/3-add_dnodeint_end.c.o	baaf846b30d8946b
-0	12	1684443763097384211	build.ninja	991982f3e2ccb47f
-0	18	1684443105416834998	CMakeFiles/0x17_doubly_linked_lists.dir/1-dlistint_len.c.o	2efe3b4c472ee89e
-0	17	1684443105416834998	CMakeFiles/0x17_doubly_linked_lists.dir/0-print_dlistint.c.o	1ac3240b952d15dd
-0	140	1684426032042703451	CMakeFiles/0x17_doubly_linked_lists.dir/0-main.c.o	c46d2e3a3b8bbfee
-0	18	1684443105416834998	CMakeFiles/0x17_doubly_linked_lists.dir/2-add_dnodeint.c.o	e3d05f9c4a410a2c
-15	27	1684443479366871526	0x17_doubly_linked_lists	efc44f5a65eea090
-0	17	1684443863064611141	CMakeFiles/0x17_doubly_linked_lists.dir/0-print_dlistint.c.o	1ac3240b952d15dd
-1	17	1684443863064611141	CMakeFiles/0x17_doubly_linked_lists.dir/1-dlistint_len.c.o	2efe3b4c472ee89e
-1	21	1684443863068611111	CMakeFiles/0x17_doubly_linked_lists.dir/2-add_dnodeint.c.o	e3d05f9c4a410a2c
-0	26	1684443863072611080	CMakeFiles/0x17_doubly_linked_lists.dir/main.c.o	1f81b31cc643fc57
-17	34	1684443863080611021	CMakeFiles/0x17_doubly_linked_lists.dir/3-add_dnodeint_end.c.o	baaf846b30d8946b
-17	49	1684443863096610901	CMakeFiles/0x17_doubly_linked_lists.dir/4-free_dlistint.c.o	9bab918f1152ed05
-49	64	1684443863108610811	0x17_doubly_linked_lists	385113f991e820a7
 0	19	1684443876224512890	CMakeFiles/0x17_doubly_linked_lists.dir/main.c.o	1f81b31cc643fc57
+17	34	1684443863080611021	CMakeFiles/0x17_doubly_linked_lists.dir/3-add_dnodeint_end.c.o	baaf846b30d8946b
+0	12	1684443947959990035	build.ninja	991982f3e2ccb47f
+1	17	1684443863064611141	CMakeFiles/0x17_doubly_linked_lists.dir/1-dlistint_len.c.o	2efe3b4c472ee89e
+0	17	1684443863064611141	CMakeFiles/0x17_doubly_linked_lists.dir/0-print_dlistint.c.o	1ac3240b952d15dd
+0	140	1684426032042703451	CMakeFiles/0x17_doubly_linked_lists.dir/0-main.c.o	c46d2e3a3b8bbfee
+1	21	1684443863068611111	CMakeFiles/0x17_doubly_linked_lists.dir/2-add_dnodeint.c.o	e3d05f9c4a410a2c
 19	34	1684443876236512800	0x17_doubly_linked_lists	385113f991e820a7
+17	49	1684443863096610901	CMakeFiles/0x17_doubly_linked_lists.dir/4-free_dlistint.c.o	9bab918f1152ed05
