@@ -1,8 +1,11 @@
 # ninja log v5
-0	50	1684426031954703685	CMakeFiles/0x17_doubly_linked_lists.dir/0-print_dlistint.c.o	1ac3240b952d15dd
-0	140	1684426032042703451	CMakeFiles/0x17_doubly_linked_lists.dir/0-main.c.o	c46d2e3a3b8bbfee
-140	153	1684426032054703418	0x17_doubly_linked_lists	7f916d09f14fcfd8
-0	16	1684426158462424918	CMakeFiles/0x17_doubly_linked_lists.dir/0-print_dlistint.c.o	1ac3240b952d15dd
-16	30	1684426158474424896	0x17_doubly_linked_lists	7f916d09f14fcfd8
 0	18	1684426255826270941	CMakeFiles/0x17_doubly_linked_lists.dir/0-print_dlistint.c.o	1ac3240b952d15dd
+0	140	1684426032042703451	CMakeFiles/0x17_doubly_linked_lists.dir/0-main.c.o	c46d2e3a3b8bbfee
 18	30	1684426255838270925	0x17_doubly_linked_lists	7f916d09f14fcfd8
+0	12	1684440154479027407	build.ninja	991982f3e2ccb47f
+0	13	1684440154495027428	CMakeFiles/0x17_doubly_linked_lists.dir/0-print_dlistint.c.o	1ac3240b952d15dd
+0	13	1684440154495027428	CMakeFiles/0x17_doubly_linked_lists.dir/1-dlistint_len.c.o	2efe3b4c472ee89e
+0	19	1684440154499027433	CMakeFiles/0x17_doubly_linked_lists.dir/main.c.o	1f81b31cc643fc57
+19	31	1684440154511027448	0x17_doubly_linked_lists	6a83923932ca1763
+1	14	1684440166815039669	CMakeFiles/0x17_doubly_linked_lists.dir/1-dlistint_len.c.o	2efe3b4c472ee89e
+14	27	1684440166831039680	0x17_doubly_linked_lists	6a83923932ca1763
