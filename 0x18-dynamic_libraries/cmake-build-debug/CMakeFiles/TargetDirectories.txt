@@ -1,0 +1,3 @@
+/home/vboxuser/alx-low_level_programming/0x18-dynamic_libraries/cmake-build-debug/CMakeFiles/0x18_dynamic_libraries.dir
+/home/vboxuser/alx-low_level_programming/0x18-dynamic_libraries/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vboxuser/alx-low_level_programming/0x18-dynamic_libraries/cmake-build-debug/CMakeFiles/rebuild_cache.dir
