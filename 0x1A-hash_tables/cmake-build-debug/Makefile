@@ -152,6 +152,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/0-hash_table_create.c.s
 .PHONY : 0-hash_table_create.c.s
 
+1-djb2.obj: 1-djb2.c.obj
+.PHONY : 1-djb2.obj
+
+# target to build an object file
+1-djb2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.obj
+.PHONY : 1-djb2.c.obj
+
+1-djb2.i: 1-djb2.c.i
+.PHONY : 1-djb2.i
+
+# target to preprocess a source file
+1-djb2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.i
+.PHONY : 1-djb2.c.i
+
+1-djb2.s: 1-djb2.c.s
+.PHONY : 1-djb2.s
+
+# target to generate assembly for a file
+1-djb2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.s
+.PHONY : 1-djb2.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... 0-hash_table_create.obj
 	@echo ... 0-hash_table_create.i
 	@echo ... 0-hash_table_create.s
+	@echo ... 1-djb2.obj
+	@echo ... 1-djb2.i
+	@echo ... 1-djb2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

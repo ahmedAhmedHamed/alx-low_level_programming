@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/0-hash_table_create.c" "E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/CMakeFiles/0x1A_hash_tables.dir/0-hash_table_create.c.obj"
+  "E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/1-djb2.c" "E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.obj"
   "E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/main.c" "E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/CMakeFiles/0x1A_hash_tables.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

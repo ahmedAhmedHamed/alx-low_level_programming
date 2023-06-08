@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/0-hash_table_create.c
+hash_tables.h
+E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/hash_tables.h
+
+E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/hash_tables.h
+stdlib.h
+-
+
+E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/main.c
+hash_tables.h
+E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/hash_tables.h
+stdio.h
+-
+
