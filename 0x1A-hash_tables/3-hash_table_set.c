@@ -3,7 +3,6 @@
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index;
-	const unsigned char *unsignedKey;
 	int i = 0;
 
 	if (key == NULL || strcmp(key, "") == 0 || ht == NULL || value == NULL)
