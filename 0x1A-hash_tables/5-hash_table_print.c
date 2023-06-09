@@ -1,5 +1,9 @@
 #include "hash_tables.h"
 
+/**
+ * hash_table_print - prints hash table
+ * @ht: the table
+ */
 void hash_table_print(const hash_table_t *ht)
 {
 	unsigned long int i = 0;
@@ -16,7 +20,7 @@ void hash_table_print(const hash_table_t *ht)
 		{
 			if (printFlag)
 				printf(", ");
-			printf("'%s':'%s'", ht->array[i]->key, ht->array[i]->value);
+			printf("'%s': '%s'", ht->array[i]->key, ht->array[i]->value);
 
 			printFlag = 1;
 		}
