@@ -23,7 +23,11 @@ void hash_table_print(const hash_table_t *ht)
 				printf(", ");
 			print_node(ht->array[i]);
 			while ((printSlave = ht->array[i]->next))
+			{
+				printf(", ");
 				print_node(printSlave);
+			}
+
 			printFlag = 1;
 		}
 	printf("}\n");
