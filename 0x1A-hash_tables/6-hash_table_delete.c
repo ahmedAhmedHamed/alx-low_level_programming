@@ -6,14 +6,14 @@
  */
 void hash_table_delete(hash_table_t *ht)
 {
-	int i = 0;
+	unsigned long int i = 0;
 
 	if (ht == NULL)
 		return;
 
 	for (i = 0; ht->array != NULL &&  i < ht->size; i++)
 		delete_node(ht->array[i]);
-
+	free(ht->array);
 	free(ht);
 }
 
