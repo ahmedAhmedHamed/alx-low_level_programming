@@ -19,7 +19,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 
 	if (ht->size == 0)
-		return (0);/* this could be (1) if it is considered a success*/
+		return (1);/* this could be (1) if it is considered a success*/
 	if (ht->array == NULL)
 		return (0);
 
