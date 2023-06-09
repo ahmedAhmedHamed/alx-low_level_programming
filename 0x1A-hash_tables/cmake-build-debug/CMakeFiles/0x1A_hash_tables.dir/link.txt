@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\0x1A_hash_tables.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\0x1A_hash_tables.dir/objects.a @CMakeFiles\0x1A_hash_tables.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\0x1A_hash_tables.dir/objects.a -Wl,--no-whole-archive -o 0x1A_hash_tables.exe -Wl,--out-implib,lib0x1A_hash_tables.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\0x1A_hash_tables.dir\linklibs.rsp
+/usr/bin/cc -g CMakeFiles/0x1A_hash_tables.dir/main.c.o "CMakeFiles/0x1A_hash_tables.dir/0-hash_table_create.c.o" "CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.o" "CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.o" "CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.o" -o 0x1A_hash_tables 

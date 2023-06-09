@@ -1,13 +1,16 @@
 file(REMOVE_RECURSE
-  "0x1A_hash_tables.exe"
-  "0x1A_hash_tables.exe.manifest"
+  "0x1A_hash_tables"
   "0x1A_hash_tables.pdb"
-  "CMakeFiles/0x1A_hash_tables.dir/0-hash_table_create.c.obj"
-  "CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.obj"
-  "CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.obj"
-  "CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.obj"
-  "CMakeFiles/0x1A_hash_tables.dir/main.c.obj"
-  "lib0x1A_hash_tables.dll.a"
+  "CMakeFiles/0x1A_hash_tables.dir/0-hash_table_create.c.o"
+  "CMakeFiles/0x1A_hash_tables.dir/0-hash_table_create.c.o.d"
+  "CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.o"
+  "CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.o.d"
+  "CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.o"
+  "CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.o.d"
+  "CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.o"
+  "CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.o.d"
+  "CMakeFiles/0x1A_hash_tables.dir/main.c.o"
+  "CMakeFiles/0x1A_hash_tables.dir/main.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

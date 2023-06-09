@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/0x1A-hash_tables.iml" filepath="$PROJECT_DIR$/.idea/0x1A-hash_tables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/0x1A_hash_tables.iml" filepath="$PROJECT_DIR$/.idea/0x1A_hash_tables.iml" />
     </modules>
   </component>
 </project>

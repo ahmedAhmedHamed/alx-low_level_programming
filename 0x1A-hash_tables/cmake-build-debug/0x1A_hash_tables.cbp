@@ -8,93 +8,93 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug"/>
+				<Option working_dir="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="0x1A_hash_tables">
-				<Option output="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/0x1A_hash_tables.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug"/>
+				<Option output="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/0x1A_hash_tables" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 0x1A_hash_tables"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 0x1A_hash_tables"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="0x1A_hash_tables/fast">
-				<Option output="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/0x1A_hash_tables.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug"/>
+				<Option output="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/0x1A_hash_tables" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 0x1A_hash_tables/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 0x1A_hash_tables/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug"/>
+				<Option working_dir="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug"/>
+				<Option working_dir="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/0-hash_table_create.c">
+		<Unit filename="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/0-hash_table_create.c">
 			<Option target="0x1A_hash_tables"/>
 		</Unit>
-		<Unit filename="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/1-djb2.c">
+		<Unit filename="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/1-djb2.c">
 			<Option target="0x1A_hash_tables"/>
 		</Unit>
-		<Unit filename="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/2-key_index.c">
+		<Unit filename="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/2-key_index.c">
 			<Option target="0x1A_hash_tables"/>
 		</Unit>
-		<Unit filename="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/3-hash_table_set.c">
+		<Unit filename="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/3-hash_table_set.c">
 			<Option target="0x1A_hash_tables"/>
 		</Unit>
-		<Unit filename="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/hash_tables.h">
+		<Unit filename="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/hash_tables.h">
 			<Option target="0x1A_hash_tables"/>
 		</Unit>
-		<Unit filename="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/main.c">
+		<Unit filename="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/main.c">
 			<Option target="0x1A_hash_tables"/>
 		</Unit>
-		<Unit filename="E:/ahmed/GITHUB/alx-low_level_programming/0x1A-hash_tables/CMakeLists.txt">
+		<Unit filename="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
