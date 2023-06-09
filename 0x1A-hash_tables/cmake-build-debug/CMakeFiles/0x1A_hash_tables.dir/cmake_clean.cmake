@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.o.d"
   "CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.o"
   "CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.o.d"
+  "CMakeFiles/0x1A_hash_tables.dir/4-hash_table_get.c.o"
+  "CMakeFiles/0x1A_hash_tables.dir/4-hash_table_get.c.o.d"
   "CMakeFiles/0x1A_hash_tables.dir/main.c.o"
   "CMakeFiles/0x1A_hash_tables.dir/main.c.o.d"
 )

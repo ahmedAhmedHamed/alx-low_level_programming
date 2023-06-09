@@ -225,6 +225,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/0x1A_hash_tables.dir/build.make CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.s
 .PHONY : 3-hash_table_set.c.s
 
+4-hash_table_get.o: 4-hash_table_get.c.o
+.PHONY : 4-hash_table_get.o
+
+# target to build an object file
+4-hash_table_get.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0x1A_hash_tables.dir/build.make CMakeFiles/0x1A_hash_tables.dir/4-hash_table_get.c.o
+.PHONY : 4-hash_table_get.c.o
+
+4-hash_table_get.i: 4-hash_table_get.c.i
+.PHONY : 4-hash_table_get.i
+
+# target to preprocess a source file
+4-hash_table_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0x1A_hash_tables.dir/build.make CMakeFiles/0x1A_hash_tables.dir/4-hash_table_get.c.i
+.PHONY : 4-hash_table_get.c.i
+
+4-hash_table_get.s: 4-hash_table_get.c.s
+.PHONY : 4-hash_table_get.s
+
+# target to generate assembly for a file
+4-hash_table_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0x1A_hash_tables.dir/build.make CMakeFiles/0x1A_hash_tables.dir/4-hash_table_get.c.s
+.PHONY : 4-hash_table_get.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -270,6 +294,9 @@ help:
 	@echo "... 3-hash_table_set.o"
 	@echo "... 3-hash_table_set.i"
 	@echo "... 3-hash_table_set.s"
+	@echo "... 4-hash_table_get.o"
+	@echo "... 4-hash_table_get.i"
+	@echo "... 4-hash_table_get.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
