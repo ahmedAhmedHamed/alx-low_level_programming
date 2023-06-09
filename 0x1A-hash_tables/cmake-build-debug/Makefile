@@ -200,6 +200,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.s
 .PHONY : 2-key_index.c.s
 
+3-hash_table_set.obj: 3-hash_table_set.c.obj
+.PHONY : 3-hash_table_set.obj
+
+# target to build an object file
+3-hash_table_set.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.obj
+.PHONY : 3-hash_table_set.c.obj
+
+3-hash_table_set.i: 3-hash_table_set.c.i
+.PHONY : 3-hash_table_set.i
+
+# target to preprocess a source file
+3-hash_table_set.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.i
+.PHONY : 3-hash_table_set.c.i
+
+3-hash_table_set.s: 3-hash_table_set.c.s
+.PHONY : 3-hash_table_set.s
+
+# target to generate assembly for a file
+3-hash_table_set.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.s
+.PHONY : 3-hash_table_set.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -242,6 +266,9 @@ help:
 	@echo ... 2-key_index.obj
 	@echo ... 2-key_index.i
 	@echo ... 2-key_index.s
+	@echo ... 3-hash_table_set.obj
+	@echo ... 3-hash_table_set.i
+	@echo ... 3-hash_table_set.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

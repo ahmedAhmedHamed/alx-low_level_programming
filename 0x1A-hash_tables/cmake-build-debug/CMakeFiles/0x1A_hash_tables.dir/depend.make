@@ -10,6 +10,9 @@ CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.obj: \
 CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.obj: \
  ../2-key_index.c \
  ../hash_tables.h
+CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.obj: \
+ ../3-hash_table_set.c \
+ ../hash_tables.h
 CMakeFiles/0x1A_hash_tables.dir/main.c.obj: \
  ../hash_tables.h \
  ../main.c

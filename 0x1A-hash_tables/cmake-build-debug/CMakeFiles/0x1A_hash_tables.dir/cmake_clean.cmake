@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/0x1A_hash_tables.dir/0-hash_table_create.c.obj"
   "CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.obj"
   "CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.obj"
+  "CMakeFiles/0x1A_hash_tables.dir/3-hash_table_set.c.obj"
   "CMakeFiles/0x1A_hash_tables.dir/main.c.obj"
   "lib0x1A_hash_tables.dll.a"
 )
