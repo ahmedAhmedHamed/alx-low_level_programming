@@ -176,6 +176,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/1-djb2.c.s
 .PHONY : 1-djb2.c.s
 
+2-key_index.obj: 2-key_index.c.obj
+.PHONY : 2-key_index.obj
+
+# target to build an object file
+2-key_index.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.obj
+.PHONY : 2-key_index.c.obj
+
+2-key_index.i: 2-key_index.c.i
+.PHONY : 2-key_index.i
+
+# target to preprocess a source file
+2-key_index.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.i
+.PHONY : 2-key_index.c.i
+
+2-key_index.s: 2-key_index.c.s
+.PHONY : 2-key_index.s
+
+# target to generate assembly for a file
+2-key_index.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0x1A_hash_tables.dir\build.make CMakeFiles/0x1A_hash_tables.dir/2-key_index.c.s
+.PHONY : 2-key_index.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -215,6 +239,9 @@ help:
 	@echo ... 1-djb2.obj
 	@echo ... 1-djb2.i
 	@echo ... 1-djb2.s
+	@echo ... 2-key_index.obj
+	@echo ... 2-key_index.i
+	@echo ... 2-key_index.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
