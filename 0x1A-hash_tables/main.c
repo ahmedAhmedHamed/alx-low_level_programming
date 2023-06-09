@@ -20,9 +20,7 @@ int main(void)
 //	hash_table_set(ht, "N", "queens");
 //	hash_table_set(ht, "Asterix", "Obelix");
 //	hash_table_set(ht, "Betty", "Cool");
-	hash_table_set(ht, "hetairas", "Battery Street");
 	hash_table_set(ht, "mentioner", "Battery Street");
-	hash_table_set(ht, "heliotropes", "Battery Street");
 	hash_table_set(ht, "neurospora", "Battery Street");
 
 	hash_table_print(ht);
