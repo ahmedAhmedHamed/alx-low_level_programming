@@ -94,6 +94,9 @@
 		<Unit filename="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/5-hash_table_print.c">
 			<Option target="0x1A_hash_tables"/>
 		</Unit>
+		<Unit filename="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/6-hash_table_delete.c">
+			<Option target="0x1A_hash_tables"/>
+		</Unit>
 		<Unit filename="/home/vboxuser/alx-low_level_programming/0x1A-hash_tables/hash_tables.h">
 			<Option target="0x1A_hash_tables"/>
 		</Unit>

@@ -273,6 +273,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/0x1A_hash_tables.dir/build.make CMakeFiles/0x1A_hash_tables.dir/5-hash_table_print.c.s
 .PHONY : 5-hash_table_print.c.s
 
+6-hash_table_delete.o: 6-hash_table_delete.c.o
+.PHONY : 6-hash_table_delete.o
+
+# target to build an object file
+6-hash_table_delete.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0x1A_hash_tables.dir/build.make CMakeFiles/0x1A_hash_tables.dir/6-hash_table_delete.c.o
+.PHONY : 6-hash_table_delete.c.o
+
+6-hash_table_delete.i: 6-hash_table_delete.c.i
+.PHONY : 6-hash_table_delete.i
+
+# target to preprocess a source file
+6-hash_table_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0x1A_hash_tables.dir/build.make CMakeFiles/0x1A_hash_tables.dir/6-hash_table_delete.c.i
+.PHONY : 6-hash_table_delete.c.i
+
+6-hash_table_delete.s: 6-hash_table_delete.c.s
+.PHONY : 6-hash_table_delete.s
+
+# target to generate assembly for a file
+6-hash_table_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0x1A_hash_tables.dir/build.make CMakeFiles/0x1A_hash_tables.dir/6-hash_table_delete.c.s
+.PHONY : 6-hash_table_delete.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -324,6 +348,9 @@ help:
 	@echo "... 5-hash_table_print.o"
 	@echo "... 5-hash_table_print.i"
 	@echo "... 5-hash_table_print.s"
+	@echo "... 6-hash_table_delete.o"
+	@echo "... 6-hash_table_delete.i"
+	@echo "... 6-hash_table_delete.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

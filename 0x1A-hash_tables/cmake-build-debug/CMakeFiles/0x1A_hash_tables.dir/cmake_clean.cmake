@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/0x1A_hash_tables.dir/4-hash_table_get.c.o.d"
   "CMakeFiles/0x1A_hash_tables.dir/5-hash_table_print.c.o"
   "CMakeFiles/0x1A_hash_tables.dir/5-hash_table_print.c.o.d"
+  "CMakeFiles/0x1A_hash_tables.dir/6-hash_table_delete.c.o"
+  "CMakeFiles/0x1A_hash_tables.dir/6-hash_table_delete.c.o.d"
   "CMakeFiles/0x1A_hash_tables.dir/main.c.o"
   "CMakeFiles/0x1A_hash_tables.dir/main.c.o.d"
 )
