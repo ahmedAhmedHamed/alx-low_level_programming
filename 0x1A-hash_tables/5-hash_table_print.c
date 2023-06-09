@@ -33,6 +33,10 @@ void hash_table_print(const hash_table_t *ht)
 	printf("}\n");
 }
 
+/**
+ * print_node - prints one node in a dictionary
+ * @node: the node to be printed
+ */
 void print_node(const hash_node_t *node)
 {
 	printf("'%s': '%s'", node->key, node->value);
