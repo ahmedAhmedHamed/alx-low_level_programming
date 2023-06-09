@@ -22,7 +22,8 @@ void hash_table_print(const hash_table_t *ht)
 			if (printFlag)
 				printf(", ");
 			print_node(ht->array[i]);
-			while ((printSlave = ht->array[i]->next))
+			printSlave = ht->array[i];
+			while ((printSlave = printSlave->next))
 			{
 				printf(", ");
 				print_node(printSlave);
