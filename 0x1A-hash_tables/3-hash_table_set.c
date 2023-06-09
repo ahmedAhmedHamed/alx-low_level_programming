@@ -32,9 +32,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 
 	ht->array[index] = malloc(sizeof(hash_node_t));
-	ht->array[index]->value = malloc(strlen(value) + 1);
-	strcpy(ht->array[index]->value, value);
-
+	ht->array[index]->value = strdup(value);
 	ht->array[index]->key = keyStr;
 
 	return (1);
