@@ -24,7 +24,7 @@ int jump_search(int *array, size_t size, int value)
 		 array[min(step, size - 1)]);
 		prev = step;
 		step += sqrtSize;
-		if (prev >= size)
+		if (step >= size)
 			break;
 	}
 	printf("Value found between indexes [%ld] and [%ld]\n", prev, step);
